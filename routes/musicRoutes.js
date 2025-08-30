@@ -8,7 +8,7 @@ router.get('/tracks', musicController.getTracks);
 // POST a new track
 router.post('/tracks', musicController.addTrack);
 
-// DELETE a track by ID — ❗ DO NOT ADD () AFTER FUNCTION
-// router.delete('/tracks/:id', musicController.deleteTrack);
+// DELETE a track by ID
+router.delete('/tracks/:id', musicController.deleteTrack);
 
 module.exports = router;
